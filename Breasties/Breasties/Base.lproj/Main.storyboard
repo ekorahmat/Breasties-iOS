@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -46,24 +46,28 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_avatar_corner" translatesAutoresizingMaskIntoConstraints="NO" id="M1v-cQ-SAv">
                                 <rect key="frame" x="375" y="430" width="225" height="170"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="M1v-cQ-SAv" secondAttribute="height" multiplier="89:67" id="RSJ-8m-gey"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_baloon_skew" translatesAutoresizingMaskIntoConstraints="NO" id="9jZ-mi-gsw">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
+                                <animations/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFt-LB-HTc">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Introduction1Title" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZZl-xX-x2G">
                                         <rect key="frame" x="219" y="40" width="162" height="39"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="NIC-zC-dtt">
                                         <rect key="frame" x="50" y="89" width="500" height="261"/>
+                                        <animations/>
                                         <string key="text">Early detection is the best protection from breast cancer.  To do SADARI (Periksa Payudara Sender) in a fun way, We proudly preset:
 Breasties!
 It brings your breasts come to life!</string>
@@ -71,6 +75,7 @@ It brings your breasts come to life!</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="NIC-zC-dtt" firstAttribute="height" secondItem="EFt-LB-HTc" secondAttribute="height" multiplier="1:2" id="60l-BX-TCn"/>
                                     <constraint firstItem="ZZl-xX-x2G" firstAttribute="top" secondItem="EFt-LB-HTc" secondAttribute="top" constant="40" id="9Qm-J1-tfg"/>
@@ -82,6 +87,7 @@ It brings your breasts come to life!</string>
                             </view>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOQ-9W-W5z">
                                 <rect key="frame" x="20" y="487" width="150" height="93"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NOQ-9W-W5z" secondAttribute="height" multiplier="50:31" id="dBP-3t-me8"/>
                                 </constraints>
@@ -94,6 +100,7 @@ It brings your breasts come to life!</string>
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NOQ-9W-W5z" secondAttribute="bottom" constant="20" id="0DX-0e-WNA"/>
@@ -138,12 +145,14 @@ It brings your breasts come to life!</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_avatar_corner" translatesAutoresizingMaskIntoConstraints="NO" id="d4v-81-ksv">
                                 <rect key="frame" x="375" y="431" width="225" height="169"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="d4v-81-ksv" secondAttribute="height" multiplier="89:67" id="8AK-LZ-xYB"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfX-nv-2H4">
                                 <rect key="frame" x="20" y="487" width="150" height="93"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cfX-nv-2H4" secondAttribute="height" multiplier="50:31" id="ms5-De-iro"/>
                                 </constraints>
@@ -157,28 +166,33 @@ It brings your breasts come to life!</string>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_baloon_skew" translatesAutoresizingMaskIntoConstraints="NO" id="1Gk-2s-3FO">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
+                                <animations/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wge-1f-V6f">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-wM-3Us">
                                         <rect key="frame" x="219" y="40" width="162" height="39"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Breasties will transform your breasts into a cute personal avatar by simply scanning it." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="2e0-s1-vTL">
                                         <rect key="frame" x="50" y="89" width="500" height="131"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_description_page2" translatesAutoresizingMaskIntoConstraints="NO" id="17r-H7-bcj">
                                         <rect key="frame" x="235" y="220" width="130" height="130"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="17r-H7-bcj" secondAttribute="height" multiplier="1:1" id="gEO-Ho-bVX"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="2e0-s1-vTL" firstAttribute="height" secondItem="wge-1f-V6f" secondAttribute="height" multiplier="0.5:2" id="CM1-XM-Fuc"/>
                                     <constraint firstAttribute="trailing" secondItem="2e0-s1-vTL" secondAttribute="trailing" constant="50" id="FFD-Es-Vk9"/>
@@ -192,6 +206,7 @@ It brings your breasts come to life!</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wge-1f-V6f" firstAttribute="height" secondItem="1Gk-2s-3FO" secondAttribute="height" id="1nK-Wz-lMv"/>
@@ -235,12 +250,14 @@ It brings your breasts come to life!</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_avatar_corner" translatesAutoresizingMaskIntoConstraints="NO" id="nbo-jJ-xF6">
                                 <rect key="frame" x="375" y="431" width="225" height="169"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="nbo-jJ-xF6" secondAttribute="height" multiplier="225:169" id="1jb-fi-ZaL"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAk-jB-5YV">
                                 <rect key="frame" x="20" y="487" width="150" height="93"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KAk-jB-5YV" secondAttribute="height" multiplier="50:31" id="j9g-gb-2VZ"/>
                                 </constraints>
@@ -254,28 +271,33 @@ It brings your breasts come to life!</string>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_baloon_skew" translatesAutoresizingMaskIntoConstraints="NO" id="Sbz-3P-vES">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
+                                <animations/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7OL-C3-Wkt">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="522"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Uj-9R-2cb">
                                         <rect key="frame" x="219" y="40" width="162" height="39"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Your lovepink breasties, will show you the moves of self-examination." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="rWv-JA-iSE">
                                         <rect key="frame" x="50" y="89" width="500" height="131"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_description_page3" translatesAutoresizingMaskIntoConstraints="NO" id="5bf-LC-h7t">
                                         <rect key="frame" x="213" y="210" width="174" height="131"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5bf-LC-h7t" secondAttribute="height" multiplier="37:28" id="5lo-Mx-aT2"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="9Uj-9R-2cb" firstAttribute="top" secondItem="7OL-C3-Wkt" secondAttribute="top" constant="40" id="2ss-8F-DQj"/>
                                     <constraint firstItem="9Uj-9R-2cb" firstAttribute="centerX" secondItem="7OL-C3-Wkt" secondAttribute="centerX" id="NgQ-aZ-rhI"/>
@@ -289,6 +311,7 @@ It brings your breasts come to life!</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="7OL-C3-Wkt" firstAttribute="leading" secondItem="ZiP-K7-fuK" secondAttribute="leading" id="3Sv-tm-H7W"/>
@@ -331,12 +354,14 @@ It brings your breasts come to life!</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_avatar_corner" translatesAutoresizingMaskIntoConstraints="NO" id="MBD-3X-LPW">
                                 <rect key="frame" x="375" y="431" width="225" height="169"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="MBD-3X-LPW" secondAttribute="height" multiplier="225:169" id="1iV-8i-wWI"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1n-yT-viF">
                                 <rect key="frame" x="20" y="487" width="150" height="93"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="B1n-yT-viF" secondAttribute="height" multiplier="50:31" id="wun-ov-GDP"/>
                                 </constraints>
@@ -350,28 +375,33 @@ It brings your breasts come to life!</string>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_baloon_skew" translatesAutoresizingMaskIntoConstraints="NO" id="6mu-RP-xIh">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
+                                <animations/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVp-l7-vEl">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="522"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNu-CZ-63A">
                                         <rect key="frame" x="219" y="40" width="162" height="39"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="and reminds you to always check on them every month." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="vtp-Sf-nZA">
                                         <rect key="frame" x="50" y="89" width="500" height="104"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_description_page4" translatesAutoresizingMaskIntoConstraints="NO" id="6At-hW-TWr">
                                         <rect key="frame" x="174" y="193" width="252" height="157"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="6At-hW-TWr" secondAttribute="height" multiplier="45:28" id="VME-RI-17R"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="PNu-CZ-63A" firstAttribute="centerX" secondItem="eVp-l7-vEl" secondAttribute="centerX" id="4VM-wT-4a7"/>
                                     <constraint firstItem="6At-hW-TWr" firstAttribute="top" secondItem="vtp-Sf-nZA" secondAttribute="bottom" id="Bvy-mF-iId"/>
@@ -385,6 +415,7 @@ It brings your breasts come to life!</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="eVp-l7-vEl" firstAttribute="width" secondItem="6mu-RP-xIh" secondAttribute="width" id="2p1-ed-Noo"/>
@@ -427,15 +458,18 @@ It brings your breasts come to life!</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_baloon_vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JvD-L0-M5F">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="522"/>
+                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introduction_avatar_center" translatesAutoresizingMaskIntoConstraints="NO" id="4DW-ea-0iH">
                                 <rect key="frame" x="225" y="472" width="150" height="77"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4DW-ea-0iH" secondAttribute="height" multiplier="39:20" id="bmb-2y-uQI"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCY-Gd-0mI">
                                 <rect key="frame" x="430" y="487" width="150" height="93"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eCY-Gd-0mI" secondAttribute="height" multiplier="50:31" id="7sv-fw-NCx"/>
                                 </constraints>
@@ -448,12 +482,14 @@ It brings your breasts come to life!</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gx-dU-dFB">
                                         <rect key="frame" x="219" y="40" width="162" height="39"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="2yh-Wc-2k0">
                                         <rect key="frame" x="50" y="89" width="500" height="261"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="2yh-Wc-2k0" secondAttribute="height" multiplier="500:261" id="fpd-0m-hWU"/>
                                         </constraints>
@@ -467,6 +503,7 @@ It brings your breasts come to life!</string>
                                         </variation>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="3gx-dU-dFB" firstAttribute="centerX" secondItem="YxK-6T-bbS" secondAttribute="centerX" id="5WF-na-YM5"/>
                                     <constraint firstItem="2yh-Wc-2k0" firstAttribute="leading" secondItem="YxK-6T-bbS" secondAttribute="leading" constant="50" id="70r-3k-wDA"/>
@@ -478,6 +515,7 @@ It brings your breasts come to life!</string>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biQ-1e-Ylc">
                                 <rect key="frame" x="20" y="487" width="150" height="93"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="biQ-1e-Ylc" secondAttribute="height" multiplier="50:31" id="Jq4-Gb-4nd"/>
                                 </constraints>
@@ -486,6 +524,7 @@ It brings your breasts come to life!</string>
                                 <state key="normal" title="SIGN UP"/>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="YxK-6T-bbS" firstAttribute="height" secondItem="JvD-L0-M5F" secondAttribute="height" id="0lj-7N-hoK"/>
@@ -537,16 +576,19 @@ It brings your breasts come to life!</string>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nama" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L4l-CS-OJh">
                                 <rect key="frame" x="81" y="156" width="438" height="30"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0P1-Ct-O2I">
                                 <rect key="frame" x="177" y="43" width="247" height="73"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="Channel" family="Channel" pointSize="35"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
@@ -556,6 +598,25 @@ It brings your breasts come to life!</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xf7-pR-h1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3588" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e2R-8D-Y7n">
+            <objects>
+                <viewController id="KFC-72-pK0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OCG-a3-0L8"/>
+                        <viewControllerLayoutGuide type="bottom" id="3i0-Vd-DrE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gt8-OX-NYE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kwq-5u-mfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4246" y="374"/>
         </scene>
     </scenes>
     <resources>
