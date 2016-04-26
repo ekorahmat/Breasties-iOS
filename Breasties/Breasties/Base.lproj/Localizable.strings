@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Breasties
+
+  Created by Eko Prasetio Rahmat on 3/26/16.
+  Copyright © 2016 LOVEPINKINDONESIA. All rights reserved.
+*/
+
+"Introduction1Title" = "Introduction";
+"Introduction1Description" = "Early detection is the best protection from breast cancer.  To do SADARI (Periksa Payudara Sendiri) in a fun way, We proudly preset:\nBreasties!\nIt brings your breasts come to life!";
+"Introduction2Title" = "Introduction";
+"Introduction2Description" = "Breasties will transform your breasts into a cute personal avatar by simply scanning it.";
+"Introduction3Title" = "Introduction";
+"Introduction3Description" = "Your lovepink breasties, will show you the moves of self-examination.";
+"Introduction4Title" = "Introduction";
+"Introduction4Description" = "and reminds you to always check on them every month.";
+"Introduction5Title" = "Introduction";
+"Introduction5Description" = "We also spread the love together for other breasties out there to get through their hard times due to breast cancer diagnose with chat forum.  Share this good news to your friends, because the more you  share, the people will be aware!";
+
+"SignUpTitle" = "Sign Up";
